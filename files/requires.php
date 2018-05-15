@@ -1,5 +1,5 @@
 <?php
-$dbServerName = "18.191.74.189";
+$dbServerName = "ec2-18-191-74-189.us-east-2.compute.amazonaws.com";
 
 $dbUserName = "root";
 
