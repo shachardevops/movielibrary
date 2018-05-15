@@ -1,9 +1,9 @@
 <?php
-$dbServerName = "localhost";
+$dbServerName = "18.191.74.189";
 
 $dbUserName = "root";
 
-$dbPassword = "";
+$dbPassword = "316129543";
 
 $dbName = "movielibrary";
 
@@ -54,7 +54,7 @@ mysqli_query($conn, $sql);
 function submitHomePage()
 {
     var frm=document.getElementById("theform");
-    frm.action="http://localhost/";
+    frm.action="18.191.74.189";
     frm.submit();
 }
 </script>
